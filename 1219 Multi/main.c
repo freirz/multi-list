@@ -22,14 +22,18 @@ int main(){
     list L;
     char nama[10];
     createempty(&L);
-    insertlist(&L,"Aku");
-    insertlist(&L,"Kowe");
-    insertlist(&L,"Ndekne");
-    insertsublist(&L,"Aku","Watsittoya");
-    insertsublist(&L,"Kowe","Tempoles");
-    insertsublist(&L,"Aku","Tortelini");
-    insertsublist(&L,"Aku","Yuujinkrab");
-    insertsublist(&L,"Ndekne","Roundpants");
+    insertlist(&L,"DF");
+    insertlist(&L,"MF");
+    insertlist(&L,"ST");
+    insertsublist(&L,"DF","Watsittoya");
+    insertsublist(&L,"MF","Tempoles");
+    insertsublist(&L,"DF","Tortelini");
+    insertsublist(&L,"DF","Yuujinkrab");
+    insertsublist(&L,"ST","Roundpants");
+    insertsublist(&L,"MF","Rickpat");
+    insertsublist(&L,"ST","Twentyfive");
+    insertsublist(&L,"MF","Savagesnail");
+    insertsublist(&L,"DF","Twentyfour");
     printlist(L);
     return 0;
 }
