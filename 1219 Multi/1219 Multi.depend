@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1576764697 source:a:\1219 multi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
